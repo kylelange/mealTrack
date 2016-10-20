@@ -1,12 +1,12 @@
 {
-  "name": "angular2-skeleton",
-  "description": "",
+  "name": "Kyle Lange",
+  "description": "a AngularJS Skel",
   "main": "",
   "authors": [
-    "Karen Freeman-Smith <karenfreemansmith@gmail.com>"
+    "Kyle Lange and Karen Freeman-Smith"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/kylelange/angJS-Skel",
   "ignore": [
     "**/.*",
     "node_modules",
