@@ -1,46 +1,59 @@
-# _{Application Name}_
+# _The FINEST Meal Tracker_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This app will allow a user to input, edit, save, and filter through data she has created by calorie level, Oct, 21st, 2016_
 
-#### By _**{List of contributors}**_
+#### By _**Kyle Lange**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This project will:_
 
-_This project will show:
-
-a solid grasp of how the Model-View-Controller (MVC) pattern is used within an Angular 2 app.
-Use TypeScript syntax as you write your apps.
-Manage build dependencies with npm.
-Manage front-end dependencies with Bower.
-Manage your development workflow with gulp.
-Write a basic Angular2 app using a model, multiple components, forms, event emitters and pipes._
+* _show a solid grasp of how the Model-View-Controller (MVC) pattern is used within an Angular 2 app.
+* _use TypeScript syntax.
+* _manage build dependencies with npm.
+* _manage front-end dependencies with Bower.
+* _manage development workflow with gulp.
+* _be a basic Angular2 app using a model, multiple components, forms, event emitters and pipes._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+_Install GitHub Search locally by cloning this repository:
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+(https://github.com/kylelange/mealTrack)
+
+_1. After cloning this repository, initialize and install Node/Node Package Manager(npm) and Bower packages by running these commands in your terminal:_
+
+  _$npm install_
+
+  _$bower install_
+
+_Look at the gulpfile.js in this repository to see the packages/dependencies installed through nmp/Bower and code that runs/pipes each package.  The most important package is gulp, which gathers all the others and later allows you to build and serve the site locally.  See more below._
+
+_2. when installation is complete, enter the commands below in your terminal to use gulp to run the program locally in your server:_
+
+  _$gulp build_
+
+  _$gulp serve_
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{FOR: build/css/styles.css : Failed to load resource: the server responded with a status of 404 (Not Found) }_
 
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _CSS with Sass_
+* _TypeScript via AngularJS_
+* _Node.js with the Node Package Manager_
+* _Bower_
+* _Gulp_
+* _Git_
+
 
 ### License
 
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Kyle Lange_**
