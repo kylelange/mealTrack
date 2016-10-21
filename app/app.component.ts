@@ -12,7 +12,8 @@ import { Meal } from './meal.model';
     (clickSender)="editDetails($event)"
   ></meal-list>
   <meal-add
-
+    [childSelectedMeal]="selectedMeal"
+    (newMealSender)="addMeal($event)"
   ></meal-add>
   <meal-edit
     [childSelectedMeal]="selectedMeal"
@@ -25,6 +26,9 @@ export class AppComponent {
   public masterMealList: Meal[] = [
     new Meal("Toasted O's with Milk", 280, "Two cups of O's and 8oz of 1% milk.")
   ];
+  addMeal(newMealFromChild: Meal) {
+    this.masterMealList.push(newMealFromChild);
+  }
   selectedMeal: Meal = null;
   editDetails(clickedMeal: Meal) {
     this.selectedMeal = clickedMeal;
