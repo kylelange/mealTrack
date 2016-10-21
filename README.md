@@ -19,7 +19,7 @@ _This project will:_
 
 _Install GitHub Search locally by cloning this repository:
 
-(https://github.com/kylelange/mealTrack)
+(https://github.com/kylelange/mealTrack.git)
 
 _1. After cloning this repository, initialize and install Node/Node Package Manager(npm) and Bower packages by running these commands in your terminal:_
 
