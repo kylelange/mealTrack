@@ -18,6 +18,7 @@ import { FilterPipe } from './filter.pipe';
     MealListComponent,
     MealEditComponent,
     MealAddComponent,
+    FilterPipe,
   ],
   bootstrap:    [ AppComponent ]
 })
