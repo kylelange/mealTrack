@@ -1,12 +1,12 @@
 {
   "name": "Kyle Lange",
-  "description": "a AngularJS Skel",
-  "main": "",
+  "description": "a meal tracker",
+  "main": "meal-tracker",
   "authors": [
-    "Kyle Lange and Karen Freeman-Smith"
+    "Kyle Lange"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/kylelange/angJS-Skel",
+  "homepage": "https://github.com/kylelange/mealTrack.git",
   "ignore": [
     "**/.*",
     "node_modules",

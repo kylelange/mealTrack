@@ -1,5 +1,5 @@
 {
-  "name": "angular2-skeleton",
+  "name": "meal-track",
   "version": "1.0.0",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
@@ -48,12 +48,12 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kylelange/angJS-Skel.git"
+    "url": "git+https://github.com/kylelange/mealTrack.git"
   },
-  "author": "Kyle Lange and Karen Freeman-Smith",
+  "author": "Kyle Lange",
   "bugs": {
-    "url": "https://github.com/kylelange/angJS-Skel/issues"
+    "url": "https://github.com/kylelange/mealTrack/issues"
   },
-  "homepage": "https://github.com/kylelange/angJS-Skel#readme",
-  "description": ""
+  "homepage": "https://github.com/kylelange/mealTrack#readme",
+  "description": "#### _{Brief description of application}, {Date of current version}_"
 }

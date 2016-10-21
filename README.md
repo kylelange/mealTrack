@@ -8,6 +8,15 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
+_This project will show:
+
+a solid grasp of how the Model-View-Controller (MVC) pattern is used within an Angular 2 app.
+Use TypeScript syntax as you write your apps.
+Manage build dependencies with npm.
+Manage front-end dependencies with Bower.
+Manage your development workflow with gulp.
+Write a basic Angular2 app using a model, multiple components, forms, event emitters and pipes._
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
