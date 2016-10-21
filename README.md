@@ -38,7 +38,7 @@ _2. when installation is complete, enter the commands below in your terminal to 
 
 ## Known Bugs
 
-_{FOR: build/css/styles.css : Failed to load resource: the server responded with a status of 404 (Not Found) }_
+_{no known bugs at this time}_
 
 
 ## Technologies Used
