@@ -5,7 +5,7 @@ import { Meal } from './meal.model';
   selector: 'my-app',
   template: `
   <div class="header">
-    <h1>The FINEST Meal Tracker:</h1>
+    <h1 id="title">The FINEST Meal Tracker:</h1>
     <h2>(Don't worry, we only judge your metadata.)</h2>
   </div>
   <meal-list
