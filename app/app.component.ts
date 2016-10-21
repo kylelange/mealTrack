@@ -4,8 +4,9 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'my-app',
   template: `
-  <div>
-    <h1>Meal Tracker:</h1>
+  <div class="header">
+    <h1>The FINEST Meal Tracker:</h1>
+    <h2>(Don't worry, we only judge you in private.)</h2>
   </div>
   <meal-list
     [childMealList]="masterMealList"
@@ -24,7 +25,9 @@ import { Meal } from './meal.model';
 
 export class AppComponent {
   public masterMealList: Meal[] = [
-    new Meal("Toasted O's with Milk", 280, "Two cups of O's and 8oz of 1% milk.")
+    new Meal("Toasted O's with Milk", 280, "Two cups of O's and 8oz of 1% milk."),
+    new Meal("A lonely carrot", 40, "Picked streight from my neighbor's garden. Shhhh...."),
+    new Meal("'Personal' Pizza", 780, "Ok, so it was just a large pizza I ate myself.")
   ];
   addMeal(newMealFromChild: Meal) {
     this.masterMealList.push(newMealFromChild);
