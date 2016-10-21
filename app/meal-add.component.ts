@@ -19,7 +19,7 @@ import { Meal } from './meal.model';
       <input #newDetails>
     </div>
     <button (click)="
-      addClicked(newName.value, newCalories.value, newDetails.value);
+      addMealClicked(newName.value, newCalories.value, newDetails.value);
       newName.value='';
       newCalories.values='';
       newDetails.values='';
@@ -35,6 +35,7 @@ export class MealAddComponent {
     if((name!=='')&&(calories>0)&&(details!=='')) {
       var newMealToAdd: Meal = new Meal(name, calories, details);
       this.newMealSender.emit(newMealToAdd);
+      console.log(newMealToAdd);
     } else {
       alert("You will need to fill in all fields for this program to properly track all your meals, please.")
     }
