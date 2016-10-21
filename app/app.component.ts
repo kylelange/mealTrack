@@ -8,7 +8,7 @@ import { Meal } from './meal.model';
     <h1>Meal Tracker:</h1>
   </div>
   <meal-list
-
+    [childMealList]="masterMealList"
   ></meal-list>
   <meal-edit
 
