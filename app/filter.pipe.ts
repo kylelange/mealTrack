@@ -17,8 +17,8 @@ export class FilterPipe implements PipeTransform {
       }
       return output;
     } else if (meal === "Med Cal") {
-      for (var j = 0; j < input.length; j++) {
-        if (input[i].calories <= 400) {
+      for (var i = 0; i < input.length; i++) {
+        if ((input[i].calories <= 400)&&(input[i].calories > 100)) {
           output.push(input[i]);
         }
       }

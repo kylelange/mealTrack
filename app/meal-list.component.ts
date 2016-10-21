@@ -28,7 +28,7 @@ export class MealListComponent {
   public selectedFilter: string = "All";
   onChange(optionFromMenu) {
     this.selectedFilter = optionFromMenu;
-    console.log(this.selectedFilter);
+    //console.log(this.selectedFilter);
   }
   editButtonClick(mealToEdit: Meal) {
     this.clickSender.emit(mealToEdit);
