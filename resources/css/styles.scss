@@ -3,14 +3,25 @@ body {
 }
 
 h1, h2 {
-  color: #808000;
+  color: #C5C533;
+  font-family: 'Trirong', serif;
+}
+
+h3 {
+  font-family: 'Trirong', serif;
 }
 
 button {
-  color: #ffffff;
-  background-color: #0e3b43;
+  font-size: 1.3em;
+  color: #C5C533;
+  background-color: #357266;
   border-radius: 4px;
-  border: solid #808000;
+  border: solid #C5C533;
+  padding: 3px 20px 3px 20px;
+}
+
+label {
+  margin-top: 10px;
 }
 
 .header {
@@ -20,6 +31,26 @@ button {
   text-align: center;
 }
 
+.mealList {
+  margin-left: 20px;
+}
+
+.addEditDiv {
+  position: absolute;
+  top: 310;
+  left: 550;
+}
+
+.addEditHeadline {
+  color: #C5C533;
+  background-color: #0e3b43;
+  padding-bottom: 20px;
+}
+
+.addEditButton {
+  margin-top: 10px;
+}
+
 #title {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -27,8 +58,11 @@ button {
 
 #filterBy {
   margin-top: 20px;
+  margin-left: 150px;
 }
 
 #Select {
-  background-color: red;
+  background-color: #C5C533;
+  margin-left: 150px;
+  margin-bottom: 20px;
 }

@@ -13,7 +13,7 @@ import { Meal } from './meal.model';
       <option value="High Cal" >High Calorie</option>
     </select>
   </div>
-  <div *ngFor="let currentMeal of childMealList | filter:selectedFilter">
+  <div class="mealList" *ngFor="let currentMeal of childMealList | filter:selectedFilter">
     <h3>{{"Meal: " + currentMeal.name }}</h3>
     <h4>{{ "Calores: " + currentMeal.calories }}</h4>
     <p>{{ "Details: " + currentMeal.details }}</p>

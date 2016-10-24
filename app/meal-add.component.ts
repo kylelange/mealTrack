@@ -4,8 +4,8 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'meal-add',
   template: `
-  <div *ngIf="childSelectedMeal===null">
-    <h3>New Meal to Track</h3>
+  <div class="addEditDiv" *ngIf="childSelectedMeal===null">
+    <h3 class="addEditHeadline">New Meal to Track</h3>
     <div>
       <label>Enter Your Meal: </label>
       <input #newName>
@@ -18,7 +18,7 @@ import { Meal } from './meal.model';
       <label>Enter Extra Details (size, portion eaten, liked/disliked): </label>
       <input #newDetails>
     </div>
-    <button (click)="
+    <button class="addEditButton" (click)="
       addMealClicked(newName.value, newCalories.value, newDetails.value);
       newName.value='';
       newCalories.values='';
