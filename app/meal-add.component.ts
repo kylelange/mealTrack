@@ -8,15 +8,15 @@ import { Meal } from './meal.model';
     <h3 class="addEditHeadline">New Meal to Track</h3>
     <div>
       <label>Enter Your Meal: </label>
-      <input #newName>
+      <input type="text" #newName>
     </div>
     <div>
       <label>Enter Calorie Count: </label>
-      <input #newCalories>
+      <input type="number" #newCalories>
     </div>
     <div>
       <label>Enter Extra Details (size, portion eaten, liked/disliked): </label>
-      <input #newDetails>
+      <input type="text" #newDetails>
     </div>
     <button class="addEditButton" (click)="
       addMealClicked(newName.value, newCalories.value, newDetails.value);
